@@ -23,4 +23,4 @@ Make **clamav-scan.sh** file executable, and run it:
 
 ```
 chmod u+x clamav-scan.sh
-./clamav-scan.sh &ltfolder_or_file&gt;
+./clamav-scan.sh <folder_or_file>
