@@ -1,7 +1,7 @@
 ClamAV Scan
 ===========
 
-Bash script to scan for viruses on unix/linux server using clamAV
+Bash script to scan for viruses on unix/linux server using clamAV, a mail is sent if a virus is found.
 
 Configuration
 -------------
@@ -23,4 +23,4 @@ Make **clamav-scan.sh** file executable, and run it:
 
 ```
 chmod u+x clamav-scan.sh
-./clamav-scan.sh *folder_or_file*
+./clamav-scan.sh &ltfolder_or_file&gt;
